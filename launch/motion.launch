@@ -1,0 +1,4 @@
+<launch>
+	<node name="motion" pkg="lab3" type="motion.py" args="$(find lab3)/script/grid.bag"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab3)/script/default.rviz"/>
+</launch>
