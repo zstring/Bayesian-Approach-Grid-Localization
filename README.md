@@ -6,4 +6,4 @@ step, characterize the robot’s trajectory.
 Grid Localization runs in two iterative steps. Movement and Observation.
 After each movement, we compute if that certain movement can move the robot
 between grid cells. For each observation, you should find the most probable cells which
-the given observation may have occured in them.
+the given observation may have occurred in them.
